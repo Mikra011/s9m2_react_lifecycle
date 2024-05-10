@@ -8,7 +8,7 @@ export default class SearchForm extends React.Component {
         }
     }
 
-    handleChange = (event) => {
+    handleChange = event => {
         this.setState({ inputValue: event.target.value });
     }
 
